@@ -10,7 +10,7 @@ function Detail() {
   };
   useEffect(() => {
     getMovie();
-  }, []);
+  });
   return <h2>detail</h2>;
 }
 
